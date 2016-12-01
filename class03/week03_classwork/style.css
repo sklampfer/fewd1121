@@ -1,0 +1,9 @@
+#container {
+	width: 90%;
+	margin: 0 auto;
+	background-color: lightgray;
+}
+
+.top{
+	background-color: black;
+}
