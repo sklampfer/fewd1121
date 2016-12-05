@@ -7,3 +7,31 @@
 .top{
 	background-color: black;
 }
+
+.nav{
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+	margin: 0;
+}
+
+.text{
+	text-align: center;
+	background-color: salmon;
+	padding: 10px;
+	margin: 0;
+}
+
+#topcolor{
+	color: blue;
+}
+
+#middlecolor{
+	color: green;
+}
+
+#bottomcolor{
+	color: yellow;
+}
