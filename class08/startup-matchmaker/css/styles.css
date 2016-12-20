@@ -2,3 +2,134 @@
 // font-family: 'Oswald', sans-serif;
 // font-family: 'Merriweather', serif;
 // font-family: 'Source Sans Pro', sans-serif;
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: black;
+	overflow: hidden;
+}
+
+header h1 {
+	font-family: 'Merriweather', serif;
+	float: left;
+	font-size: 28px;
+	color: yellow;
+}
+
+header nav {
+	font-family: 'Source Sans Pro', sans-serif;
+	float: right;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding-top: 15px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+}
+
+#yellowline {
+	height: 3px;
+	background-color: yellow;
+}
+
+.caption {
+	background-color: #C6C6C6;
+	overflow: hidden;
+}
+
+.caption p {
+	font-family: 'Merriweather', serif;
+	font-style: italic;	
+	text-align: center;
+}
+
+main {
+	background-image: url('../img/coworking.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+.hero {
+	width: 400px;
+	background-color: rgba(255,255,255,.9);
+	float: right;
+	padding: 45px 30px;
+	margin: 30px 0;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	border-radius: 2px;
+}
+
+.hero p {
+	font-size: 15px;
+	line-height: 2;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0;
+}
+
+.yellow-button {
+	font-family: 'Oswald', sans-serif;
+	background-color: yellow;
+	font-size: 13px;
+	text-align: center;
+	padding: 7px 0;	
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	border-radius: 2px;
+}
+
+.action {
+	width: 250px;
+	display: inline-block;
+	padding: 30px;
+	margin-right: 6px;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+}
+
+.gray-button {
+	font-family: 'Oswald', sans-serif;
+	background-color: #C6C6C6;
+	font-size: 13px;
+	text-align: center;
+	padding: 7px 0;	
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	border-radius: 2px;
+}
+
+footer {
+	background: black;
+	overflow: hidden;
+}
+
+footer p {
+	color: white;
+	font-size: 11px;
+	padding: 5px;
+}
